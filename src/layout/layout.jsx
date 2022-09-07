@@ -3,6 +3,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import TopNav from "./topnav";
 import Sidenav from "./sidebar";
+// import Home from "../pages/home/home";
+import Funding from "../pages/funding/funding";
 
 const Layout = () => {
   return (
@@ -12,8 +14,11 @@ const Layout = () => {
           <Col xl={2}>
             <Sidenav />
           </Col>
-          <Col xl={8}>
+          <Col xl={10}>
             <TopNav title={"Funding"} />
+            <div className="bg-light p-3 px-4">
+              <Funding />
+            </div>
           </Col>
         </Row>
       </Container>

@@ -3,9 +3,9 @@ import {
   MdOutlineHome,
   MdOutlineGroup,
   MdOutlineMarkunread,
-  MdOutlineSource,
   MdOutlineBusiness,
   MdOutlineQueryStats,
+  MdOutlineFolder,
   MdOutlineEngineering,
 } from "react-icons/md";
 import { NavLink } from "react-router-dom";
@@ -55,7 +55,7 @@ const Sidenav = () => {
             style={({ isActive }) => (isActive ? divActive : notactive)}
           >
             <div className="px-2">
-              <MdOutlineSource className="mel-side-icons" />
+              <MdOutlineFolder className="mel-side-icons" />
             </div>
             <div>Business Profile</div>
           </NavLink>
