@@ -21,7 +21,7 @@ const TopNav = ({ title }) => {
         <Container fluid="lg">
           <Navbar.Brand
             as={Link}
-            to="home"
+            to="/home"
             style={navClor}
             className="custom-semibold"
           >
