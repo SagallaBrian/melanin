@@ -13,101 +13,62 @@ const Sidenav = () => {
   const imgStyle = {
     width: "27px",
   };
-  return (
-    <div className="bg-light p-3 mel-sidebar">
-      <div className="d-flex align-items-center">
-        <div className="px-2">
-          <img src={logo} alt="" style={imgStyle} />
-        </div>
-        <div className="flex-grow-1 fw-bold ">Melanin Capital</div>
-      </div>
 
-      <div>
-        <div className="d-flex">
-          <div>
-            <MdOutlineHome />
+  return (
+    <div className="mel-height  mel-rel">
+      <div className="mel-abs p-3 ">
+        <div className="d-flex align-items-center pt-2">
+          <div className="px-2">
+            <img src={logo} alt="" style={imgStyle} />
           </div>
-          <div>Home</div>
+          <div className="flex-grow-1 fw-bold ">Melanin Capital</div>
         </div>
-        <div className="d-flex">
-          <div>
-            <MdOutlineSource />
+
+        <div className="mel-sidebar-b">
+          <div className="d-flex py-3 align-items-center">
+            <div className="px-2">
+              <MdOutlineHome className="mel-side-icons" />
+            </div>
+            <div>Home</div>
           </div>
-          <div>Business Profile</div>
-        </div>
-        <div className="d-flex">
-          <div>
-            <MdOutlineBusiness />
+          <div className="d-flex py-3 align-items-center">
+            <div className="px-2">
+              <MdOutlineSource className="mel-side-icons" />
+            </div>
+            <div>Business Profile</div>
           </div>
-          <div>Risk Profile</div>
-        </div>
-        <div className="d-flex">
-          <div>
-            <MdOutlineQueryStats />
+          <div className="d-flex py-3 align-items-center">
+            <div className="px-2">
+              <MdOutlineBusiness className="mel-side-icons" />
+            </div>
+            <div>Risk Profile</div>
           </div>
-          <div>Funding</div>
-        </div>
-        <div className="d-flex">
-          <div>
-            <MdOutlineGroup />
+          <div className="d-flex py-3 align-items-center">
+            <div className="px-2">
+              <MdOutlineQueryStats className="mel-side-icons" />
+            </div>
+            <div>Funding</div>
           </div>
-          <div>Konnect</div>
-        </div>
-        <div className="d-flex">
-          <div>
-            <MdOutlineEngineering />
+          <div className="d-flex py-3 align-items-center">
+            <div className="px-2">
+              <MdOutlineGroup className="mel-side-icons" />
+            </div>
+            <div>Konnect</div>
           </div>
-          <div>Academy</div>
-        </div>
-        <div className="d-flex">
-          <div>
-            <MdOutlineMarkunread />
+          <div className="d-flex py-3 align-items-center">
+            <div className="px-2">
+              <MdOutlineEngineering className="mel-side-icons" />
+            </div>
+            <div>Academy</div>
           </div>
-          <div>Support</div>
+          <div className="d-flex py-3 align-items-center">
+            <div className="px-2">
+              <MdOutlineMarkunread className="mel-side-icons" />
+            </div>
+            <div>Support</div>
+          </div>
         </div>
       </div>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
-      <p>hey</p>
     </div>
   );
 };
