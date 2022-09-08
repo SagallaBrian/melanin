@@ -54,6 +54,18 @@ html {
   color: #212529;
 }
 
+.mel-small {
+  font-size: 0.8rem !important;
+}
+
+.mel-subtitle {
+  font-size: 1.2rem !important;
+}
+
+.mel-border-bottom {
+  border-bottom: 5px solid #ffab00;
+}
+
 .nav-color {
   color: #212529 !important;
 }

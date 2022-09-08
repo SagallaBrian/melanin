@@ -3,6 +3,16 @@ import Chart from "react-apexcharts";
 const BarGraph = () => {
   const mydatastate = {
     options: {
+      colors: ["#ffab00"],
+      title: {
+        text: "Loan history",
+        align: "left",
+        style: {
+          fontSize: "23px",
+          fontWeight: "bold",
+        },
+      },
+
       chart: {
         id: "basic-bar",
       },
@@ -26,12 +36,12 @@ const BarGraph = () => {
     series: [
       {
         name: "series-1",
-        data: [0, 0, 40, 45, 50, 49, 60, 70, 91, 45, 0, 0],
+        data: [0, 0, 0, 0, 50, 49, 60, 70, 0, 0, 0, 0],
       },
     ],
   };
   return (
-    <div className="mt-4 p-2 bg-white shadow-sm rounded">
+    <div className="mt-4 p-2 py-4 bg-white shadow-sm rounded">
       <div className="mixed-chart">
         <Chart
           options={mydatastate.options}

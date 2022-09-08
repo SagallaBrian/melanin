@@ -2,9 +2,15 @@ import Chart from "react-apexcharts";
 
 const PieChart = () => {
   const mydatastate = {
-    options: {},
+    options: {
+      colors: ["#ffab00", "#e4e4e4"],
+      title: {
+        text: "Diaspora SME Loan",
+        align: "left",
+      },
+      labels: ["Amount Repaid", "Loan Balance"],
+    },
     series: [27, 19],
-    labels: ["A", "B"],
   };
   return (
     <div className="p-2">
