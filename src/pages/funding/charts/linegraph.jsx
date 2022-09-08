@@ -1,4 +1,5 @@
 import Chart from "react-apexcharts";
+import { MdVisibility } from "react-icons/md";
 
 const LineGraph = () => {
   const mydatastate = {
@@ -34,6 +35,11 @@ const LineGraph = () => {
         </div>
         <div className="mel-small text-secondary flex-grow-1 text-end">
           Current Private Equity
+        </div>
+      </div>
+      <div className="px-2 d-flex align-items-center ">
+        <div className="mel-color-def">
+          KES 3,000, 000 <MdVisibility className="text-dark" />
         </div>
       </div>
       <div className="mixed-chart">

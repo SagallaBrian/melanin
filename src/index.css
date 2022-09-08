@@ -66,6 +66,14 @@ html {
   border-bottom: 5px solid #ffab00;
 }
 
+.mel-color-def {
+  color: #ffab00 !important;
+}
+
+.mel-bgcolor-def {
+  background-color: #ffab00 !important;
+}
+
 .nav-color {
   color: #212529 !important;
 }
