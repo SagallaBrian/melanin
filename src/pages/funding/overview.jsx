@@ -14,9 +14,9 @@ const Overview = () => {
   };
   return (
     <div className="shadow-sm rounded">
-      <Row>
+      <Row className="g-0">
         <Col xs={7} className="bg-white rounded">
-          <div className="py-3">
+          <div className="p-3">
             <h4 className="mel-semibold">Get more funding today</h4>
             <div className="small pb-3 text-secondary">
               What kind of funding would you like to get for your business
@@ -54,7 +54,7 @@ const Overview = () => {
           </div>
         </Col>
         <Col style={pinkBak} className="rounded">
-          <div className="py-3">
+          <div className="p-3">
             <h4 className="mel-semibold">Fund Statistics</h4>
             <div style={pinktwo} className="p-2 rounded">
               <h5>KES 6,690,900</h5>
